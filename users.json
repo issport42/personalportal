@@ -1,0 +1,145 @@
+{
+  "users": [
+    {
+      "username": "islom23",
+      "password": "islom.23",
+      "displayName": "Islom",
+      "sites": [
+        {
+          "name": "MyStat",
+          "url": "https://mystat.itstep.org",
+          "icon": "fas fa-chart-line",
+          "color": "#ff6b6b"
+        },
+        {
+          "name": "Gmail",
+          "url": "https://mail.google.com",
+          "icon": "fas fa-envelope",
+          "color": "#ea4335"
+        },
+        {
+          "name": "YouTube",
+          "url": "https://youtube.com",
+          "icon": "fab fa-youtube",
+          "color": "#ff0000"
+        },
+        {
+          "name": "ChatGPT",
+          "url": "https://chatgpt.com",
+          "icon": "fas fa-robot",
+          "color": "#10a37f"
+        },
+        {
+          "name": "Hdrezka",
+          "url": "https://rezka.ag",
+          "icon": "fas fa-film",
+          "color": "#ff9f43"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com",
+          "icon": "fab fa-github",
+          "color": "#333333"
+        },
+        {
+          "name": "OneDrive",
+          "url": "https://onedrive.live.com",
+          "icon": "fas fa-cloud",
+          "color": "#0078d4"
+        },
+        {
+          "name": "Canva",
+          "url": "https://canva.com",
+          "icon": "fab fa-canva",
+          "color": "#00c4cc"
+        },
+        {
+          "name": "Yandex Translate",
+          "url": "https://translate.yandex.ru",
+          "icon": "fas fa-language",
+          "color": "#ffcc00"
+        }
+      ]
+    },
+    {
+      "username": "humora16",
+      "password": "humora.16",
+      "displayName": "Humora",
+      "sites": [
+        {
+          "name": "Hdrezka",
+          "url": "https://rezka.ag",
+          "icon": "fas fa-film",
+          "color": "#ff9f43"
+        },
+        {
+          "name": "Gmail",
+          "url": "https://mail.google.com",
+          "icon": "fas fa-envelope",
+          "color": "#ea4335"
+        },
+        {
+          "name": "Canva",
+          "url": "https://canva.com",
+          "icon": "fab fa-canva",
+          "color": "#00c4cc"
+        },
+        {
+          "name": "Yandex Translate",
+          "url": "https://translate.yandex.ru",
+          "icon": "fas fa-language",
+          "color": "#ffcc00"
+        },
+        {
+          "name": "Telegram",
+          "url": "https://web.telegram.org",
+          "icon": "fab fa-telegram",
+          "color": "#0088cc"
+        },
+        {
+          "name": "Instagram",
+          "url": "https://instagram.com",
+          "icon": "fab fa-instagram",
+          "color": "#e4405f"
+        },
+        {
+          "name": "Spotify",
+          "url": "https://open.spotify.com",
+          "icon": "fab fa-spotify",
+          "color": "#1db954"
+        },
+        {
+          "name": "Netflix",
+          "url": "https://netflix.com",
+          "icon": "fas fa-tv",
+          "color": "#e50914"
+        }
+      ]
+    },
+    {
+      "username": "admin",
+      "password": "admin123",
+      "displayName": "Administrator",
+      "sites": [
+        {
+          "name": "GitHub",
+          "url": "https://github.com",
+          "icon": "fab fa-github",
+          "color": "#333333"
+        },
+        {
+          "name": "Google",
+          "url": "https://google.com",
+          "icon": "fab fa-google",
+          "color": "#4285f4"
+        },
+        {
+          "name": "Dashboard",
+          "url": "https://admin.example.com",
+          "icon": "fas fa-tachometer-alt",
+          "color": "#6366f1"
+        }
+      ]
+    }
+  ]
+}

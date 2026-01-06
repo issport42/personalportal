@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portal | Redirecting...</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .redirect-body {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .redirect-container {
+            text-align: center;
+            color: white;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 40px;
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+        }
+        
+        .loader {
+            width: 50px;
+            height: 50px;
+            border: 4px solid rgba(255, 255, 255, 0.3);
+            border-radius: 50%;
+            border-top-color: white;
+            animation: spin 1s ease-in-out infinite;
+            margin: 0 auto 20px;
+        }
+        
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+        
+        a {
+            color: #4cc9f0;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body class="redirect-body">
+    <div class="redirect-container">
+        <div class="loader"></div>
+        <h2>🚀 Personal Portal</h2>
+        <p>Перенаправление на защищенный портал...</p>
+        <p>Если перенаправление не произошло, <a href="auth.html">нажмите сюда</a></p>
+    </div>
+    
+    <script>
+        // Проверяем, авторизован ли уже пользователь
+        const currentUser = localStorage.getItem('currentUser');
+        if (currentUser) {
+            window.location.href = 'main.html';
+        } else {
+            window.location.href = 'auth.html';
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portal | Главная</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="animated-background"></div>
+    
+    <header class="main-header">
+        <div class="header-content">
+            <div class="logo-section">
+                <div class="logo-icon">
+                    <i class="fas fa-portal-enter"></i>
+                </div>
+                <div class="logo-text">
+                    <h1 id="portalTitle">Portal</h1>
+                    <span class="username-display" id="usernameDisplay">Загрузка...</span>
+                </div>
+            </div>
+            
+            <div class="header-controls">
+                <div class="theme-indicator" id="themeIndicator">
+                    <i class="fas fa-sun"></i>
+                    <span>Дневная тема</span>
+                </div>
+                <button class="logout-btn" id="logoutBtn">
+                    <i class="fas fa-sign-out-alt"></i> Выйти
+                </button>
+            </div>
+        </div>
+        
+        <div class="welcome-section" id="welcomeSection">
+            <div class="welcome-content">
+                <h2><i class="fas fa-hand-wave"></i> Добро пожаловать, <span id="welcomeName">Пользователь</span>!</h2>
+                <p>Ваш персональный портал успешно загружен. Доступные ресурсы:</p>
+            </div>
+            <div class="welcome-close" id="closeWelcome">
+                <i class="fas fa-times"></i>
+            </div>
+        </div>
+    </header>
+    
+    <main class="portal-main">
+        <div class="time-display" id="timeDisplay">
+            <i class="fas fa-clock"></i>
+            <span>Загрузка времени...</span>
+        </div>
+        
+        <div class="sites-container" id="sitesContainer">
+            <!-- Динамически генерируется через JS -->
+        </div>
+        
+        <div class="quick-stats">
+            <div class="stat-card">
+                <i class="fas fa-globe"></i>
+                <h3>Ресурсы</h3>
+                <p id="sitesCount">0</p>
+            </div>
+            <div class="stat-card">
+                <i class="fas fa-user-check"></i>
+                <h3>Статус</h3>
+                <p>Активен</p>
+            </div>
+            <div class="stat-card">
+                <i class="fas fa-shield-alt"></i>
+                <h3>Безопасность</h3>
+                <p>Защищено</p>
+            </div>
+        </div>
+    </main>
+    
+    <footer class="main-footer">
+        <p><i class="fas fa-copyright"></i> Personal Portal v2.0 | <span id="currentYear">2024</span></p>
+        <p class="footer-info">Доступ ограничен. Все права защищены.</p>
+    </footer>
+    
+    <script src="main.js"></script>
+</body>
+</html>
